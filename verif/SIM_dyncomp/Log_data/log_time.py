@@ -9,7 +9,7 @@ def log_add_utc_calendar( dr_group) :
 
 def log_time ( log_cycle ) :
   recording_group_name =  "Earth_Time"
-  dr_group = trick.sim_services.DRBinary(recording_group_name)
+  dr_group = trick.sim_services.DRHDF5(recording_group_name)
   dr_group.thisown = 0
   dr_group.set_cycle(log_cycle)
   dr_group.freq = trick.sim_services.DR_Always

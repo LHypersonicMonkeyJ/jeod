@@ -13,7 +13,7 @@ def log_add_earth_RNP( dr_group) :
 
 def log_earth_RNP ( log_cycle ) :
   recording_group_name =  "Earth_RNP"
-  dr_group = trick.sim_services.DRBinary("Earth_RNP")
+  dr_group = trick.sim_services.DRHDF5("Earth_RNP")
   dr_group.thisown = 0
   dr_group.set_cycle(log_cycle)
   dr_group.freq = trick.sim_services.DR_Always

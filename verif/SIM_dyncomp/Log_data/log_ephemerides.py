@@ -1,5 +1,5 @@
 def log_ephemerides ( log_cycle ) :
-  dr_group = trick.sim_services.DRBinary("ephemerides")
+  dr_group = trick.sim_services.DRHDF5("ephemerides")
   dr_group.thisown = 0
   dr_group.set_cycle(log_cycle)
   dr_group.freq = trick.sim_services.DR_Always

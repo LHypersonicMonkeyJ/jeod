@@ -51,7 +51,7 @@ def log_add_pfix_state( dr_group) :
 ###############################################################################
 
 def log_euler_angles (log_cycle) :
-  dr_group = trick.sim_services.DRBinary("euler_angles")
+  dr_group = trick.sim_services.DRHDF5("euler_angles")
   dr_group.thisown = 0
   dr_group.set_cycle(log_cycle)
   dr_group.freq = trick.sim_services.DR_Always
@@ -59,7 +59,7 @@ def log_euler_angles (log_cycle) :
   trick.add_data_record_group(dr_group)
 
 def log_pfix_state (log_cycle) :
-  dr_group = trick.sim_services.DRBinary("pfix")
+  dr_group = trick.sim_services.DRHDF5("pfix")
   dr_group.thisown = 0
   dr_group.set_cycle(log_cycle)
   dr_group.freq = trick.sim_services.DR_Always
@@ -69,7 +69,7 @@ def log_pfix_state (log_cycle) :
 
 
 def log_state ( log_cycle ):
-  dr_group = trick.sim_services.DRBinary("state")
+  dr_group = trick.sim_services.DRHDF5("state")
   dr_group.thisown = 0
   dr_group.set_cycle(log_cycle)
   dr_group.freq = trick.sim_services.DR_Always

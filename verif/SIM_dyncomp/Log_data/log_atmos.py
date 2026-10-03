@@ -1,7 +1,7 @@
 exec(compile(open( "Log_data/log_time.py", "rb").read(), "Log_data/log_time.py", 'exec'))
 
 def log_atmos ( log_cycle):
-  dr_group = trick.sim_services.DRBinary("atmos")
+  dr_group = trick.sim_services.DRHDF5("atmos")
   dr_group.thisown = 0
   dr_group.set_cycle(log_cycle)
   dr_group.freq = trick.sim_services.DR_Always

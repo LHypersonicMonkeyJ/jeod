@@ -8,7 +8,8 @@ PURPOSE:
 
 REFERENCE:
     ((http://www.iers.org)
-     (http://data.iers.org/products/214/14443/orig/eopc04_08_IAU2000.62-now)
+     (https://hpiers.obspm.fr/iers/eop/eopc04/eopc04.1962-now)
+     (https://datacenter.iers.org/data/9/finals2000A.all)
      (Seidelmann, "Explanatory Supplement to the Astronomical Almanac,"
       University Science Books, Mill Valley, California, 1992.))
 

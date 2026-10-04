@@ -1,12 +1,14 @@
 /*******************************************************************************
 PURPOSE:
    (${outType[0].upper() + outType[1:]} Earth Orientation Parameters (EOP) for polar motion.
-    This data file was generated from IERS data "EOP 14 C04 (IAU2000)"
+    This data file was generated from IERS data "EOP 20 C04" plus Bulletin A
+    (finals2000A) rapid and predicted values, merged by make_eop_input.py,
     using the "parser.py" script.)
 
 REFERENCE:
    ((http://www.iers.org)
-    (https://datacenter.iers.org/data/224/eopc04_14_IAU2000.62-now.txt)
+    (https://hpiers.obspm.fr/iers/eop/eopc04/eopc04.1962-now)
+    (https://datacenter.iers.org/data/9/finals2000A.all)
     (Seidelmann, "Explanatory Supplement to the Astronomical Almanac,"
      University Science Books, Mill Valley, California, 1992.))
 
